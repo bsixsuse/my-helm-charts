@@ -1,2 +1,2 @@
 # my-helm-charts
-# Test a variety of helm examples with questions.yaml
+# This a variety of helm examples with questions.yaml
