@@ -1,1 +1,1 @@
-# my-helm-chats
+# my-helm-charts
