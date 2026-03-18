@@ -1,0 +1,20 @@
+annotations:
+  helm.sh/images: |
+    - image: dp.apps.rancher.io/containers/bci-busybox:15.7-19.10
+      name: bci-busybox
+    - image: dp.apps.rancher.io/containers/local-path-provisioner:0.0.34-6.2
+      name: local-path-provisioner
+  license: Apache-2.0
+apiVersion: v2
+appVersion: 0.0.34
+description: Local Path Provisioner provides a way for the Kubernetes users to utilize
+  the local storage in each node. Based on the user configuration, the Local Path
+  Provisioner will create either hostPath or local based persistent volume on the
+  node automatically.
+home: https://apps.rancher.io/applications/local-path-provisioner
+icon: https://apps.rancher.io/logos/local-path-provisioner.png
+maintainers:
+- name: SUSE LLC
+  url: https://www.suse.com/
+name: local-path-provisioner
+version: 0.0.34

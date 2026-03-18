@@ -1,0 +1,26 @@
+apiVersion: v0
+kind: ImagesLock
+metadata:
+  generatedAt: "2026-02-26T16:10:58.583062661Z"
+  generatedBy: SUSE LLC
+chart:
+  name: local-path-provisioner
+  version: 0.0.34
+  appVersion: 0.0.34
+images:
+  - name: bci-busybox
+    image: dp.apps.rancher.io/containers/bci-busybox:15.7-19.10
+    chart: local-path-provisioner
+    digests:
+      - digest: sha256:4314d397acbe5cdba88181b8b61c5747550f610bcca92a2ec994b0cdb7943f89
+        arch: linux/amd64
+      - digest: sha256:a036d331a06462978aa8de1a9220d20948a63c070b70471228e1396946d548e4
+        arch: linux/arm64
+  - name: local-path-provisioner
+    image: dp.apps.rancher.io/containers/local-path-provisioner:0.0.34-6.2
+    chart: local-path-provisioner
+    digests:
+      - digest: sha256:12cd43b6dfa96bdb4154993e0948190e44530b985ed52773caf2e2d2d4298f79
+        arch: linux/amd64
+      - digest: sha256:2930a999e10dfbae43938a1a8b738e88ca75285635a276429da319f1a2b5e736
+        arch: linux/arm64
